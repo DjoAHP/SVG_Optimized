@@ -1,10 +1,13 @@
+
+
 {
   "name": "svg-optimizer",
   "version": "1.0.0",
   "description": "A project to optimize SVG files",
   "main": "index.js",
   "scripts": {
-    "optimize": "svgo -f src/SVG -o src/SVG_Optimized"
+    "optimize": "svgo -f src/SVG -o src/SVG_Optimized",
+    "optimize:file": "svgo src/SVG/ahp-icon-terminalp.svg -o src/SVG_Optimized/ahp-icon-terminalpop.svg"
   },
   "keywords": [],
   "author": "",
