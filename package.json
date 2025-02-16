@@ -1,0 +1,15 @@
+{
+  "name": "svg-optimizer",
+  "version": "1.0.0",
+  "description": "A project to optimize SVG files",
+  "main": "index.js",
+  "scripts": {
+    "optimize": "svgo -f src/SVG -o src/SVG_Optimized"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "svgo": "^2.8.0"
+  }
+}
