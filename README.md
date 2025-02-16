@@ -6,6 +6,6 @@ Voici les scripts disponibles dans le fichier `package.json` :
 
 - **`npm run optimize:file`**: Ce script est conçu pour optimiser un seul fichier SVG spécifique. Par exemple, si vous avez un fichier nommé `your-icon.svg` dans le dossier `src/SVG`, exécuter `npm run optimize:file` optimisera ce fichier particulier et sauvegardera la version optimisée sous le nom `your-icon-optimized.svg` dans le dossier `src/SVG_Optimized`.
 
-Pour exécuter ces scripts, utilisez simplement la commande `npm run <nom-du-script>` dans votre terminal. Par exemple :
 ```bash
 npm run optimize
+npm run optimize:file
